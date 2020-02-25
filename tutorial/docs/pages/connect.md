@@ -1,10 +1,15 @@
-## Connect to a blockchain
+# Connect to a blockchain
 
-You have three methods to connect to an Ethereum node
+Running `web3.providers` will return the following provider.
+You can also return the current provider using this method:
 
+```
+web3.currentProvider
+```
 
+You have three ways to connect to an Ethereum node
 
-### givenProvider
+## Injected Web3
 
 A given provider is provided via **injected web3**. For instance, Metamask via the browser.
 
@@ -20,17 +25,17 @@ const web3 = new Web3(Web3.givenProvider || 'ws://localhost:8546', null, {});
 ```
 
 
-### providers
+## Remote WebSocket
 
-Running `web3.providers` will return the following provider.
-
-* WebsocketProvider: The Websocket provider is the standard for usage in legacy browsers. For instance, if you wish to connect to an Infura node.
+The `WebsocketProvider` is the standard for usage in legacy browsers. For instance, if you wish to connect to an Infura node.
 
 ```
 new Web3.providers.WebsocketProvider('wss://mainnet.infura.io/ws/v3/YOUR-PROJECT-ID')
 ```
 
-* IpcProvider: The IPC provider is used node.js dapps when running a local node, like the **geth client**. It gives the most secure connection
+## Local IPC Socket
+
+The `IPCProvider` is used node.js dapps when running a local node, like the **geth client**. It gives the most secure connection
 
 
 ```
@@ -43,13 +48,3 @@ var web3 = new Web3(new Web3.providers.IpcProvider('/Users/myuser/Library/Ethere
 // on windows the path is: "\\\\.\\pipe\\geth.ipc"
 // on linux the path is: "/users/myuser/.ethereum/geth.ipc"
 ```
-
-
-
-### Return the current provider
-
-```
-web3.currentProvider
-```
-
-Will return the current provider set (Object), otherwise null

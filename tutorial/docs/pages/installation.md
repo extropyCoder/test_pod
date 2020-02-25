@@ -10,8 +10,12 @@ We have prepared a self-contained environment using [GitPod](https://www.gitpod.
 
 For this tutorial, we will be working with `npm`, the package manager for node.js
 
-Open your terminal and run the following command
+web3.js and truffle are available as node modules, so let's install them in our working folder.
 
 ```
-npm install web3
+cd project/client
+npm install -g web3
+npm install -g truffle
 ```
+
+

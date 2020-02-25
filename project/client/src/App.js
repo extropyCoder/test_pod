@@ -8,6 +8,10 @@ import ScoreContract from './contracts/Score.json';
 
 class App extends Component {
 
+  showNetworkId() {
+    // write your code here
+  }
+
   state = { storageValue: 0, web3: null, accounts: null, contract: null };
 
   value = "hello world";
