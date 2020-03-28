@@ -1,5 +1,5 @@
 const SimpleStorage = artifacts.require("./SimpleStorage.sol");
-const ScoreContract = artifacts.require("./score.sol");
+const ScoreContract = artifacts.require("./Score.sol");
 
 contract("SimpleStorage", accounts => {
   it("...should store the value 89.", async () => {
