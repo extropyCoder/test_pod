@@ -21,10 +21,10 @@ console.log(web3);
 
 The last command output the web3 object in the console (see picture below). It contains all the available methods. There are a lot of information here. 
 
-Let's first look at `Web3.utils`. **Scroll back up** to the first result.
+Let's first look at `web3.utils`. **Scroll back up** to the first result.
 
 <pre style="background-color: #1A2E39; color: #E2E2E2; padding: 2%">
-{ [Function: Web3]
+{ [Function: web3]
   version: '1.2.2',
   <b style="color:#958968;">utils:</b>
    { _fireError: [Function: _fireError],
@@ -52,7 +52,7 @@ We are going to start using the web3 library through some simple "warmup" exerci
 All you have to do is paste the code snippet below in the node.js and find the correct method to display on the console the expected result.
 
 ```javascript
-var result = Web3.utils.<method_to_find>);
+var result = web3.utils.<method_to_find>);
 console.log(result);
 ```
 
