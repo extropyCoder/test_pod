@@ -4,9 +4,12 @@
 
 * [Welcome](/)
 * [Introduction](/pages/intro.md)
-* [Installation](/pages/installation.md)
-* [Get Started](/pages/get_started.md)
-* [1. The Web3 modules](/pages/modules.md)
+-----
+* [1. Get Started](#)
+    * [1.1 Installation](/pages/installation.md)
+    * [1.2 Exploring Web3](/pages/explore_web3.md)
+    * [1.3 Simple exercices](/pages/exercices.md)
+    * [1.4 The Web3 modules](/pages/modules.md)
 -----
 * [2. Building our Dapp](/pages/truffle.md)
     * [2.1 Run a local blockchain](/pages/2-2-Run-Local-Chain.md)
