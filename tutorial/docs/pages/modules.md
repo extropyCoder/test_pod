@@ -7,36 +7,41 @@ var modules = Web3.modules
 console.log(modules)
 ```
 
-<pre>
+<pre class="extropy-codeblock">
 { Eth:
-   { [Function: Eth]
-     givenProvider: null,
-     providers:
-      { WebsocketProvider: [Function: WebsocketProvider],
-        HttpProvider: [Function: HttpProvider],
-        IpcProvider: [Function: IpcProvider] } },
-  Net:
-   { [Function: Net]
-     givenProvider: null,
-     providers:
-      { WebsocketProvider: [Function: WebsocketProvider],
-        HttpProvider: [Function: HttpProvider],
-        IpcProvider: [Function: IpcProvider] } },
-  Personal:
-   { [Function: Personal]
-     givenProvider: null,
-     providers:
-      { WebsocketProvider: [Function: WebsocketProvider],
-        HttpProvider: [Function: HttpProvider],
-        IpcProvider: [Function: IpcProvider] } },
-  Shh:
-   { [Function: Shh]
-     givenProvider: null,
-     providers:
-      { WebsocketProvider: [Function: WebsocketProvider],
-        HttpProvider: [Function: HttpProvider],
-        IpcProvider: [Function: IpcProvider] } },
-  Bzz: { [Function: Bzz] givenProvider: null } }
+      { [Function: Eth]
+        givenProvider: <strong style="color:#ffffff">null</strong>,
+        providers:
+         { WebsocketProvider: <span class="cli-blue">[Function: WebsocketProvider]</span>,
+           HttpProvider: <span class="cli-blue">[Function: HttpProvider]</span>,
+           IpcProvider: <span class="cli-blue">[Function: IpcProvider]</span> } },
+     Net:
+      { [Function: Net]
+        givenProvider: <strong style="color:#ffffff">null</strong>,
+        providers:
+         { WebsocketProvider: <span class="cli-blue">[Function: WebsocketProvider]</span>,
+           HttpProvider: <span class="cli-blue">[Function: HttpProvider]</span>,
+           IpcProvider: <span class="cli-blue">[Function: IpcProvider]</span> } },
+     Personal:
+      { [Function: Personal]
+        givenProvider: <strong style="color:#ffffff">null</strong>,
+        providers:
+         { WebsocketProvider: <span class="cli-blue">[Function: WebsocketProvider]</span>,
+           HttpProvider: <span class="cli-blue">[Function: HttpProvider]</span>,
+           IpcProvider: <span class="cli-blue">[Function: IpcProvider]</span> } },
+     Shh:
+      { [Function: Shh]
+        givenProvider: <strong style="color:#ffffff">null</strong>,
+        providers:
+         { WebsocketProvider: <span class="cli-blue">[Function: WebsocketProvider]</span>,
+           HttpProvider: <span class="cli-blue">[Function: HttpProvider]</span>,
+           IpcProvider: <span class="cli-blue">[Function: IpcProvider]</span> } },
+     Bzz: { [Function: Bzz] givenProvider: <strong style="color:#ffffff">null</strong> } },
+  givenProvider: <strong style="color:#ffffff">null</strong>,
+  providers:
+   { WebsocketProvider: <span class="cli-blue">[Function: WebsocketProvider]</span>,
+     HttpProvider: <span class="cli-blue">[Function: HttpProvider]</span>,
+     IpcProvider: <span class="cli-blue">[Function: IpcProvider]</span> } }
 </pre>
 
 Aside from the `utils` module, Web3 contains 4 other modules

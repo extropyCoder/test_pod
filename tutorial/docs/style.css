@@ -1,0 +1,41 @@
+:root {
+    --docsifytabs-border-color: #ededed;
+    --docsifytabs-tab-highlight-color: #455666;
+}
+
+.extr-btn-primary {
+    background-color: #455666;
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight:500;
+    padding: 1.25rem;
+    border-radius: 1.25rem;
+    margin: 1.5rem 0;
+}
+
+.center {
+    text-align:center;
+}
+
+.extropy-warning {
+    background-color: rgba(232, 223, 194, 0.9);
+    margin: 1.5rem 35%;
+    padding: 1.25rem 2.5rem;
+    font-size: 1.25rem;
+    border-radius: 1.25rem;
+}
+
+.extropy-codeblock {
+    background-color: #1A2E39 !important; 
+    color: #E2E2E2 !important; 
+    padding: 2% !important;
+}
+
+.big {
+    font-size: 1.25rem;
+}
+
+.cli-blue { color: #00d9ff; }
+.cli-green { color: #00ff00 }
+.cli-red { color: #FF1A00 }
+.cli-yellow { color: #FFF400 }

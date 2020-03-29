@@ -14,9 +14,9 @@ There is where Web3.js comes into play.
 
 
 > Web3 is more a vision around the Ethereum protocol, and the next phase of the web: web3.0
-> * Web 1 = original World Wide Web
-> * Web 2 = Web hosted applications and services, communicating via HTTP protocol
-> * Web 3 = decentralized web, powered by Blockchains and DLT
+> * Web 1.0 = original World Wide Web
+> * Web 2.0 = Web hosted applications and services, communicating via HTTP protocol
+> * Web 3.0 = decentralized web, powered by Blockchains and DLT
 
 Web3.js is a collection of libraries which allow you to interact with a local or remote ethereum node, using a HTTP or IPC connection.
 
@@ -36,9 +36,10 @@ Technically, web3 contains different modules that are JSON-RPC objects. These ar
 
 |||||
 |:-----:|:-----:|:-----:|:-----:|
-|||||
+||![](https://i.ibb.co/Fwz0jbv/web3py.png)|||
 |EthJs|Web3.py|web3-php|Scala-web3j-scala|
 |![](https://asdgvdoyen.cloudimg.io/cdn/n/twebp/https://api.beta.kauri.io:443/ipfs/QmfWo2RhNPoU234Xpkee53pfRhTtYqBdoTJEXTf3vMNLbx)||![](https://avatars3.githubusercontent.com/u/16318746?s=400&v=4)|
 |Web3j |Rust Web3|Nethereum|Haskell-hs-web3|
+
 
 
